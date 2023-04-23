@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="createMaze()">
+
+    <h1>Rat in a Maze</h1>
+    <select id="level_select">
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+    </select>
+    <div id="timer">Time: 0 seconds</div>
+    <div id="record">Record: Infinity seconds</div>
+
+    <div id="maze-container">
+        <img src="img/rat.png" id="rat" width="50px" height="50px" alt="rat">
+        <img src="img/food.png" id="food" alt="food" width="50px" height="50px">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
